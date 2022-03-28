@@ -1,0 +1,105 @@
+* {
+  transition: all 1s;
+}
+
+img {
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+}
+
+.slick-list {
+  overflow: initial !important;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-current {
+  transform: scale(1.2);
+}
+
+.slick-dots {
+  bottom: 30px !important;
+}
+
+.news-content {
+  width: 100%;
+  height: 11000px;
+  background-image: url("https://www.onead.com.tw/gallery/inflip/apple/apple__%E8%8F%AF%E6%98%A0%20%E6%8B%86%E5%BD%88%E5%B0%88%E5%AE%B62%20%E9%9B%BB%E5%BD%B1%E5%AE%A3%E5%82%B3_20201230/img/index_1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mobile-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+  transform: rotate(100deg) translate(100px, 550px);
+  opacity: 0;
+}
+
+.mobile-bottom-rotate {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  transform: rotate(0deg) translate(0px, 0px);
+  opacity: 1;
+}
+
+.mobile-card {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  border-radius: 30%;
+}
+
+.dot-container > ul > li {
+  margin: auto 5px;
+}
+
+.close-btn {
+  background-image: url("./images/close.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 25px;
+  left: 92.5vw;
+  right: 0;
+  z-index: 2;
+  border-radius: 100%;
+}
+
+.swiper {
+  overflow: initial;
+}
+
+.swiper-wrapper {
+  position: relative;
+  left: 10%;
+}
+
+.swiper-slide > img {
+  border-radius: 10%;
+}
+
+.swiper-slide-active > img {
+  transform: scale(1.05);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
